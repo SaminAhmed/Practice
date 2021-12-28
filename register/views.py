@@ -50,4 +50,3 @@ def createaccountpage(request):
 	d = {'error' : error}
 	#print(error)
 	return render(request,'createaccount.html',d)
-	#return render(request,'createaccount.html')
